@@ -1,0 +1,50 @@
+.pagina {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .pagina h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #2a2a72;
+  }
+  
+  .pagina ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagina li {
+    background-color: #f0f4ff;
+    margin: 1rem 0;
+    padding: 1.2rem 1.5rem;
+    border-left: 6px solid #3f51b5;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+  }
+  
+  .pagina li:hover {
+    transform: translateY(-3px);
+  }
+  
+  .pagina li strong {
+    color: #1a237e;
+    font-weight: 600;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 600px) {
+    .pagina {
+      padding: 1rem;
+    }
+  
+    .pagina h1 {
+      font-size: 2rem;
+    }
+  }
+  

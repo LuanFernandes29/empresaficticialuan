@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #1f2937; /* tom escuro (azul acinzentado) */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.navbar a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #38bdf8; /* azul claro */
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.navbar a:hover {
+  color: #38bdf8;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}

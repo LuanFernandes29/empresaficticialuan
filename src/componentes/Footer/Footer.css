@@ -1,0 +1,21 @@
+.footer {
+  background-color: #121212; /* Cor escura para aparência moderna */
+  color: #ffffff;            /* Texto branco para contraste */
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.95rem;
+  width: 100%;
+  margin-top: auto;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s ease;
+}
+
+.footer:hover {
+  background-color: #1e1e1e;
+}
+
+.footer p {
+  margin: 0;
+  letter-spacing: 0.5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
